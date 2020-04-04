@@ -4,7 +4,8 @@
   "description": "Alwataniya IT Ticketing system",
   "main": "index.js",
   "scripts": {
-    "test": "node insex.js"
+    "test": "node insex.js",
+    "devstart": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -22,9 +23,15 @@
   "homepage": "https://github.com/dintos07/ticketing-system#readme",
   "dependencies": {
     "bluebird": "^3.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "forever": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
     "mysql": "^2.18.1",
+    "nodemon": "^2.0.2",
+    "path": "^0.12.7",
     "promise-mysql": "^4.1.3"
-  }
+  },
+  "devDependencies": {}
 }
