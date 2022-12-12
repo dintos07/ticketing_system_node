@@ -22,7 +22,7 @@
   "homepage": "https://github.com/dintos07/ticketing-system#readme",
   "dependencies": {
     "bluebird": "^3.7.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "forever": "^2.0.0",
     "mysql": "^2.18.1",
     "promise-mysql": "^4.1.3"
